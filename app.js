@@ -19,137 +19,137 @@ const products = [
     {
         id: 1, name: 'قهوة باشنفر', category: 'coffee',
         desc: 'بن باشنفر الأصلي هرري إثيوبي، الجودة العالية للقهوة العربية',
-        price: 40, emoji: '☕', image: 'https://images.unsplash.com/photo-1447933601403-56dc2df9dd24?w=600&q=80', badge: 'best'
+        price: 40, emoji: '☕', image: 'https://images.unsplash.com/photo-1610889556528-9a770e32642f?w=600&q=80', badge: 'best'
     },
     {
         id: 2, name: 'قهوة لقمتي', category: 'coffee',
         desc: 'بن لقمتي الفاخر إثيوبي، طعم غني ومميز للقهوة السعودية',
-        price: 35, emoji: '☕', image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefda?w=600&q=80', badge: null
+        price: 35, emoji: '☕', image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=600&q=80', badge: null
     },
     {
         id: 3, name: 'قهوة هرري', category: 'coffee',
         desc: 'بن هرري درجة أولى من إثيوبيا بنكهة عطرية مميزة',
-        price: 45, oldPrice: 50, emoji: '☕', image: 'https://images.unsplash.com/photo-1504630083234-14187a9df0f5?w=600&q=80', badge: 'sale'
+        price: 45, oldPrice: 50, emoji: '☕', image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefda?w=600&q=80', badge: 'sale'
     },
     {
         id: 4, name: 'قهوة خولاني', category: 'coffee',
         desc: 'بن خولاني يمني فاخر حمصة وسط بمذاق أصيل',
-        price: 60, emoji: '☕', image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80', badge: 'new'
+        price: 60, emoji: '☕', image: 'https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=600&q=80', badge: 'new'
     },
 
     // Spices
     {
         id: 5, name: 'هيل فاخر درجة أولى', category: 'spices',
         desc: 'هيل أخضر فاخر من غواتيمالا بحبات كبيرة وعطر قوي',
-        price: 120, emoji: '🫛', image: 'https://images.unsplash.com/photo-1599909533601-aa23a47fbb10?w=600&q=80', badge: 'best'
+        price: 120, emoji: '🫛', image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&q=80', badge: 'best'
     },
     {
         id: 6, name: 'زعفران إيراني أصلي', category: 'spices',
         desc: 'زعفران نقيل سوبر نقين من إيران بلون أحمر داكن ونكهة فريدة',
-        price: 150, emoji: '🌺', image: 'https://images.unsplash.com/photo-1636207543865-acf3ad382295?w=600&q=80', badge: 'best'
+        price: 150, emoji: '🌺', image: 'https://images.unsplash.com/photo-1625178340728-555f1baf1e88?w=600&q=80', badge: 'best'
     },
     {
         id: 7, name: 'كركم طبيعي مطحون', category: 'spices',
         desc: 'كركم هندي طبيعي مطحون طازج بلون ذهبي زاهي',
-        price: 25, emoji: '🟡', image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=600&q=80', badge: null
+        price: 25, emoji: '🟡', image: 'https://images.unsplash.com/photo-1615485925600-97237c4fc1ec?w=600&q=80', badge: null
     },
     {
         id: 8, name: 'قرفة سيلانية', category: 'spices',
         desc: 'قرفة سيلانية أصلية بعطر فواح ومذاق حلو طبيعي',
-        price: 35, emoji: '🪵', image: 'https://images.unsplash.com/photo-1591692741892-6e1c79aa5a14?w=600&q=80', badge: null
+        price: 35, emoji: '🪵', image: 'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?w=600&q=80', badge: null
     },
     {
         id: 9, name: 'فلفل أسود حب', category: 'spices',
         desc: 'فلفل أسود هندي حبات كاملة غنية بالزيوت الطيارة',
-        price: 20, emoji: '🫘', image: 'https://images.unsplash.com/photo-1599909230866-e6b4f43a97ef?w=600&q=80', badge: null
+        price: 20, emoji: '🫘', image: 'https://images.unsplash.com/photo-1541779408-c355f77f4a96?w=600&q=80', badge: null
     },
     {
         id: 10, name: 'مسمار (قرنفل)', category: 'spices',
         desc: 'قرنفل حب كامل بجودة ممتازة وعطر قوي ونفاذ',
-        price: 30, emoji: '🌶️', image: 'https://images.unsplash.com/photo-1606471191009-63994c53dbcf?w=600&q=80', badge: 'new'
+        price: 30, emoji: '🌶️', image: 'https://images.unsplash.com/photo-1577234286642-fc512a5f8f11?w=600&q=80', badge: 'new'
     },
 
     // Herbs
     {
         id: 11, name: 'يانسون طبيعي', category: 'herbs',
         desc: 'يانسون حب طبيعي مهدئ للأعصاب ومفيد للهضم',
-        price: 18, emoji: '🌿', image: 'https://images.unsplash.com/photo-1585659722983-3a675dabf23c?w=600&q=80', badge: null
+        price: 18, emoji: '🌿', image: 'https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=600&q=80', badge: null
     },
     {
         id: 12, name: 'نعناع مجفف', category: 'herbs',
         desc: 'نعناع مجفف طبيعي بنكهة منعشة مثالي للشاي والمشروبات',
-        price: 15, emoji: '🍃', image: 'https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?w=600&q=80', badge: null
+        price: 15, emoji: '🍃', image: 'https://images.unsplash.com/photo-1620189507195-68309c04c4d0?w=600&q=80', badge: null
     },
     {
         id: 13, name: 'بابونج (كاموميل)', category: 'herbs',
         desc: 'زهور بابونج مجففة طبيعية مهدئة ومريحة للاسترخاء',
-        price: 22, emoji: '🌼', image: 'https://images.unsplash.com/photo-1587241321027-8a0311153a73?w=600&q=80', badge: 'new'
+        price: 22, emoji: '🌼', image: 'https://images.unsplash.com/photo-1581090464777-f3220bbe1b8e?w=600&q=80', badge: 'new'
     },
     {
         id: 14, name: 'ميرمية (مريمية)', category: 'herbs',
         desc: 'ميرمية طبيعية مجففة غنية بالفوائد الصحية وعطر مميز',
-        price: 20, emoji: '🌿', image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=600&q=80', badge: null
+        price: 20, emoji: '🌿', image: 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&q=80', badge: null
     },
     {
         id: 15, name: 'حبة البركة (حبة سودا)', category: 'herbs',
         desc: 'حبة البركة السوداء الأصلية - شفاء من كل داء',
-        price: 28, emoji: '⚫', image: 'https://images.unsplash.com/photo-1599909533601-aa23a47fbb10?w=600&q=80', badge: 'best'
+        price: 28, emoji: '⚫', image: 'https://images.unsplash.com/photo-1615485925763-905a7890edc0?w=600&q=80', badge: 'best'
     },
 
     // Honey
     {
         id: 16, name: 'عسل سدر يمني', category: 'honey',
         desc: 'عسل سدر يمني أصلي من أجود النحل باختبار جودة معتمد',
-        price: 250, emoji: '🍯', image: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=600&q=80', badge: 'best'
+        price: 250, emoji: '🍯', image: 'https://images.unsplash.com/photo-1587049352847-4d4b12fe38cd?w=600&q=80', badge: 'best'
     },
     {
         id: 17, name: 'عسل زهور الربيع', category: 'honey',
         desc: 'عسل زهور طبيعي متعدد الأزهار بطعم لذيذ وفوائد متعددة',
-        price: 80, emoji: '🍯', image: 'https://images.unsplash.com/photo-1587049352847-4d4b12fe38cd?w=600&q=80', badge: null
+        price: 80, emoji: '🍯', image: 'https://images.unsplash.com/photo-1471943311424-646960669fbc?w=600&q=80', badge: null
     },
     {
         id: 18, name: 'عسل مانوكا نيوزلندي', category: 'honey',
         desc: 'عسل مانوكا أصلي من نيوزلندا بتركيز MGO 400+',
-        price: 380, oldPrice: 420, emoji: '🍯', image: 'https://images.unsplash.com/photo-1471943311424-646960669fbc?w=600&q=80', badge: 'sale'
+        price: 380, oldPrice: 420, emoji: '🍯', image: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=600&q=80', badge: 'sale'
     },
 
     // Oud & Incense
     {
         id: 19, name: 'عود كمبودي طبيعي', category: 'oud',
         desc: 'عود كمبودي طبيعي فاخر بدخان كثيف ورائحة مميزة تدوم طويل',
-        price: 300, emoji: '🪵', image: 'https://images.unsplash.com/photo-1600612253971-422e7c3b4200?w=600&q=80', badge: 'best'
+        price: 300, emoji: '🪵', image: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&q=80', badge: 'best'
     },
     {
         id: 20, name: 'بخور معطر فاخر', category: 'oud',
         desc: 'بخور معطر بخلطة خاصة من العود والعنبر والمسك',
-        price: 75, emoji: '💨', image: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&q=80', badge: null
+        price: 75, emoji: '💨', image: 'https://images.unsplash.com/photo-1600612253971-422e7c3b4200?w=600&q=80', badge: null
     },
     {
         id: 21, name: 'دهن عود أصلي', category: 'oud',
         desc: 'دهن عود طبيعي مقطر بعناية بتركيز عالي وثبات استثنائي',
-        price: 450, emoji: '✨', image: 'https://images.unsplash.com/photo-1594035910387-fcd39ff5f3d9?w=600&q=80', badge: 'new'
+        price: 450, emoji: '✨', image: 'https://images.unsplash.com/photo-1616604426203-a0a6d12e5e43?w=600&q=80', badge: 'new'
     },
 
     // Nuts
     {
         id: 22, name: 'لوز محمص ومملح', category: 'nuts',
         desc: 'لوز أمريكي محمص بالملح الخفيف بقرمشة مثالية',
-        price: 45, emoji: '🥜', image: 'https://images.unsplash.com/photo-1508061253366-f7da158b6d46?w=600&q=80', badge: null
+        price: 45, emoji: '🥜', image: 'https://images.unsplash.com/photo-1574570068765-2f74c3721c32?w=600&q=80', badge: null
     },
     {
         id: 23, name: 'فستق حلبي فاخر', category: 'nuts',
         desc: 'فستق حلبي أخضر فاخر منتقى بعناية بحبات كبيرة',
-        price: 90, emoji: '🟢', image: 'https://images.unsplash.com/photo-1525385133512-2f3bdd039054?w=600&q=80', badge: 'best'
+        price: 90, emoji: '🟢', image: 'https://images.unsplash.com/photo-1590073844006-33379778ae09?w=600&q=80', badge: 'best'
     },
     {
         id: 24, name: 'جوز عين الجمل', category: 'nuts',
         desc: 'جوز عين جمل طبيعي غني بالأوميغا 3 والفوائد الصحية',
-        price: 55, emoji: '🧠', image: 'https://images.unsplash.com/photo-1604515876632-c7ec8476c4e3?w=600&q=80', badge: null
+        price: 55, emoji: '🧠', image: 'https://images.unsplash.com/photo-1563635529200-64b62dbc8e9d?w=600&q=80', badge: null
     },
     {
         id: 25, name: 'كاجو محمص', category: 'nuts',
         desc: 'كاجو هندي محمص بدون ملح بنكهة طبيعية لذيذة',
-        price: 65, oldPrice: 75, emoji: '🥜', image: 'https://images.unsplash.com/photo-1563292769-4e05b684851a?w=600&q=80', badge: 'sale'
+        price: 65, oldPrice: 75, emoji: '🥜', image: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=600&q=80', badge: 'sale'
     }
 ];
 
