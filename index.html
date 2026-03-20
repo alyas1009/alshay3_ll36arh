@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="عطارة الشايع - أجود أنواع القهوة والبهارات والأعشاب والعسل والعود والبخور والمكسرات">
+    <meta name="keywords" content="عطارة, بهارات, قهوة عربية, هيل, زعفران, عسل, عود, بخور, مكسرات">
+    <meta name="theme-color" content="#1a1a2e">
+    <title>عطارة الشايع | أجود المنتجات الطبيعية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-icon">🌿</span>
+                <div class="logo-text">
+                    <h1>الشايع</h1>
+                    <span class="logo-sub">للعطارة</span>
+                </div>
+            </div>
+            <nav class="nav" id="nav">
+                <a href="#hero" class="nav-link active">الرئيسية</a>
+                <a href="#categories" class="nav-link">الأقسام</a>
+                <a href="#products" class="nav-link">المنتجات</a>
+                <a href="#about" class="nav-link">من نحن</a>
+                <a href="#contact" class="nav-link">تواصل معنا</a>
+            </nav>
+            <div class="header-actions">
+                <div class="search-toggle" id="searchToggle">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                </div>
+                <div class="cart-toggle" id="cartToggle">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                    <span class="cart-count" id="cartCount">0</span>
+                </div>
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <!-- Search Bar -->
+        <div class="search-bar" id="searchBar">
+            <div class="search-bar-inner">
+                <input type="text" id="searchInput" placeholder="ابحث عن منتج... قهوة، هيل، زعفران..." autocomplete="off">
+                <button class="search-close" id="searchClose">✕</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="hero-content">
+            <div class="hero-badge">🌿 منذ عام 1990</div>
+            <h2 class="hero-title">
+                <span class="hero-title-line">عطارة</span>
+                <span class="hero-title-accent">الشايع</span>
+            </h2>
+            <p class="hero-desc">أجود أنواع البهارات والقهوة والأعشاب الطبيعية<br>من أصول عربية أصيلة إلى بيتك</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">تسوّق الآن</a>
+                <a href="#about" class="btn btn-outline">تعرّف علينا</a>
+            </div>
+            <div class="hero-features">
+                <div class="hero-feature">
+                    <span class="hero-feature-icon">🚚</span>
+                    <span>توصيل سريع</span>
+                </div>
+                <div class="hero-feature">
+                    <span class="hero-feature-icon">✨</span>
+                    <span>جودة فائقة</span>
+                </div>
+                <div class="hero-feature">
+                    <span class="hero-feature-icon">💯</span>
+                    <span>منتجات طبيعية</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section categories-section" id="categories">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">أقسامنا</span>
+                <h2 class="section-title">تصفّح حسب القسم</h2>
+                <p class="section-desc">نقدم لكم مجموعة متنوعة من أجود المنتجات الطبيعية</p>
+            </div>
+            <div class="categories-grid" id="categoriesGrid">
+                <!-- Categories will be rendered by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section products-section" id="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">منتجاتنا</span>
+                <h2 class="section-title">أجود المنتجات الطبيعية</h2>
+                <p class="section-desc">اختر من تشكيلتنا الواسعة من المنتجات عالية الجودة</p>
+            </div>
+            <div class="products-filter" id="productsFilter">
+                <button class="filter-btn active" data-category="all">الكل</button>
+                <!-- Filter buttons rendered by JS -->
+            </div>
+            <div class="products-count" id="productsCount"></div>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be rendered by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-badge">من نحن</span>
+                    <h2 class="section-title">عطارة الشايع</h2>
+                    <p class="about-text">
+                        منذ أكثر من ثلاثة عقود ونحن نقدم أجود أنواع البهارات والقهوة والأعشاب الطبيعية. نفتخر بتوفير منتجات أصيلة من مصادر موثوقة حول العالم، مع الحفاظ على الطابع العربي الأصيل الذي يميزنا.
+                    </p>
+                    <p class="about-text">
+                        نحرص في عطارة الشايع على انتقاء كل منتج بعناية فائقة لضمان أعلى مستويات الجودة والنقاء. هدفنا هو تقديم تجربة تسوق مميزة تجمع بين الأصالة والحداثة.
+                    </p>
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <span class="stat-number">+30</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="stat-number">+500</span>
+                            <span class="stat-label">منتج</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="stat-number">+10K</span>
+                            <span class="stat-label">عميل سعيد</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-card">
+                        <div class="about-card-icon">☕</div>
+                        <h3>قهوة فاخرة</h3>
+                        <p>أجود أنواع البن العربي والتركي</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon">🌿</div>
+                        <h3>أعشاب طبيعية</h3>
+                        <p>أعشاب طازجة من مصادر موثوقة</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon">🍯</div>
+                        <h3>عسل أصلي</h3>
+                        <p>عسل طبيعي بأنواعه المختلفة</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon">✨</div>
+                        <h3>عود وبخور</h3>
+                        <p>أفخر أنواع العود والبخور</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">تواصل معنا</span>
+                <h2 class="section-title">نسعد بخدمتكم</h2>
+                <p class="section-desc">تواصل معنا عبر أي من الطرق التالية</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>اتصل بنا</h3>
+                    <p>0503938998</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">💬</div>
+                    <h3>واتساب</h3>
+                    <p>0503938998</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>موقعنا</h3>
+                    <p>القصيم - بريدة</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">🕐</div>
+                    <h3>ساعات العمل</h3>
+                    <p>يومياً ٩ص - ١١م</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">🌿</span>
+                        <div class="logo-text">
+                            <h3>الشايع</h3>
+                            <span class="logo-sub">للعطارة</span>
+                        </div>
+                    </div>
+                    <p>أجود أنواع البهارات والقهوة والأعشاب الطبيعية منذ عام 1990</p>
+                </div>
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <a href="#hero">الرئيسية</a>
+                    <a href="#categories">الأقسام</a>
+                    <a href="#products">المنتجات</a>
+                    <a href="#about">من نحن</a>
+                </div>
+                <div class="footer-links">
+                    <h4>الأقسام</h4>
+                    <a href="#" onclick="filterCategory('coffee')">القهوة</a>
+                    <a href="#" onclick="filterCategory('spices')">البهارات</a>
+                    <a href="#" onclick="filterCategory('herbs')">الأعشاب</a>
+                    <a href="#" onclick="filterCategory('honey')">العسل</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 عطارة الشايع - جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>🛒 سلة المشتريات</h3>
+            <button class="cart-close" id="cartClose">✕</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <div class="cart-empty" id="cartEmpty">
+                <span class="cart-empty-icon">🛒</span>
+                <p>السلة فارغة</p>
+                <span>أضف منتجات للبدء بالتسوق</span>
+            </div>
+        </div>
+        <div class="cart-footer" id="cartFooter" style="display:none;">
+            <div class="cart-total">
+                <span>المجموع:</span>
+                <span id="cartTotal">0 ر.س</span>
+            </div>
+            <button class="btn btn-primary btn-full" id="checkoutBtn">
+                إتمام الطلب عبر واتساب
+            </button>
+            <button class="btn btn-outline btn-full btn-clear" id="clearCartBtn">
+                تفريغ السلة
+            </button>
+        </div>
+    </div>
+
+    <!-- Scroll to top -->
+    <button class="scroll-top" id="scrollTop">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+
+    <!-- Product Modal -->
+    <div class="modal-overlay" id="productModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">✕</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast notification -->
+    <div class="toast" id="toast">
+        <span class="toast-icon">✓</span>
+        <span class="toast-msg" id="toastMsg">تمت الإضافة</span>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
